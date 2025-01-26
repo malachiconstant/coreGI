@@ -79,9 +79,14 @@
 					"slug": "black"
 				},
 				{
-					"color": "rgba(20, 20, 20, 0.75)",
+					"color": "rgba(59, 59, 59, 0.75)",
 					"name": "Trans Dark Grey",
 					"slug": "trans-dark-grey"
+				},
+				{
+					"color": "rgba(59, 59, 59, 0.9)",
+					"name": "Trans Dark Grey 2",
+					"slug": "trans-dark-grey-2"
 				},
 				{
 					"color": "color-mix(in srgb, currentColor 20%, transparent)",

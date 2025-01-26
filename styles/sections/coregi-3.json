@@ -1,8 +1,8 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"slug": "coregi-1",
-	"title": "CoreGI 1",
+	"slug": "coregi-3",
+	"title": "CoreGI 3",
 	"blockTypes": [
 		"core/group",
 		"core/columns",
