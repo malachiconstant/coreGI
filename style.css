@@ -68,7 +68,28 @@ header {
 	box-shadow: 0px 2px 10px #222222;
 }
 body {
+	background-image: linear-gradient(to bottom, #3b3b3b, #1a1a1a);
+	background-position: bottom left;
+	background-size: 100vh;
+	background-attachment: fixed;
+}
+.home .wp-site-blocks {
 	line-height: 1.2;
+	background-image: url('/wp-content/themes/coreGI/assets/images/stars.png'),url('/wp-content/themes/coreGI/assets/images/stars.png'),url('/wp-content/themes/coreGI/assets/images/stars.png');
+	background-position: center center, bottom left, top right;
+	background-size: 2500px, 3500px, 4000px;
+	background-attachment: fixed, fixed, fixed;
+	background-repeat: repeat, repeat, repeat;
+	animation: moveBG 120s linear infinite;
+}
+
+@keyframes moveBG {
+	from {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  to { 
+    background-position: 0 -3000px, 0 -2000px, 0 -1800px;  
+  }
 }
 main  {
 	background-image: url('/wp-content/themes/coreGI/assets/images/bg_01.png');
@@ -142,6 +163,14 @@ main .wp-block-image img {
 
 .is-style-coregi-4 > .wp-block-columns {
 	flex-direction: column-reverse
+}
+
+.invis_init {
+	opacity: 0;
+	transition: all 0.8s
+}
+.invis_init.appear_anim {
+	opacity: 1;
 }
 
 @media only screen and (min-width: 782px) {

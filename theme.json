@@ -93,7 +93,20 @@
 					"name": "Accent 6",
 					"slug": "accent-6"
 				}
+			],
+			"gradients": [
+				{
+					"slug": "dark-red-to-burgundy",
+					"name": "Dark Red to Burgundy",
+					"gradient": "linear-gradient(to bottom, #CC2030, 90%, #8B1E3B)"
+				},
+				{
+					"slug": "orange-1-to-red",
+					"name": "Orange 1 to red",
+					"gradient": "linear-gradient(to bottom, #F6762F, 80%, #ED202A)"
+				}
 			]
+			
 		},
 		"layout": {
 			"contentSize": "645px",
